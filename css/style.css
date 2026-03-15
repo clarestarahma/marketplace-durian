@@ -383,7 +383,6 @@ hr {
 .wrapper-back-to-top {
     display: flex;
     justify-content: end;
-    margin: 0 100px;
     margin-bottom: 0;
     position: sticky;
 }

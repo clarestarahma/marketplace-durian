@@ -382,12 +382,14 @@ hr {
 .wrapper-back-to-top {
     display: flex;
     justify-content: end;
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 0;
     position: sticky;
 }
 
 .back-to-top p {
     margin: 0;
+    font-size: 11px;
 }
 
 .back-to-top {
@@ -828,7 +830,7 @@ form {
     }
 
     .produk-kami-card {
-        width: 100px;
+        width: 120px;
         transition: all 0.3s ease-in-out;
     }
 
@@ -854,7 +856,7 @@ form {
     }
 
     .card-button img {
-        width: 11px;
+        width: 19px;
         height: auto;
         transition: all 0.3s ease-in-out;
     }
@@ -1102,6 +1104,10 @@ form {
     .img-desc-hero {
         max-width: 90%;
         transition: all 0.3s ease-in-out;
+    }
+
+    .card-button p {
+        font-size: 10px;
     }
 
     .durian-hero {

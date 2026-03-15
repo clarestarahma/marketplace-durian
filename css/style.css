@@ -1,0 +1,1105 @@
+/* $orange = #FEC200 */
+
+p, h1, h2, h3, h4, h5, h6, legend {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: #000;
+    margin: 0px;
+}
+
+nav {
+    background-color: #000  ;
+    padding: 12px 100px;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-logo, .cart-logo, .nav-right{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-logo, .cart-logo {
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.nav-right {
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-button, .profile-container-dashboard {
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    height: 25px;
+}
+
+.cart-image, .doorens-image {
+    height: 35px;
+    transition: all 0.3s ease-in-out;
+}
+
+.cart-image {
+    height: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+.anchor-profile {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+.profile-container-dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0px;
+    background-color: rgba(254, 194, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-button {
+    display: flex;
+    gap: 5px;
+    height: 100%;
+    width: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.profile-button > p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+hr {
+    width: 100%;
+    align-self: center;
+    border: 0.5px solid rgba(254, 194, 0, 0.1);
+}
+
+/* Hero */
+.text-hero p, .text-hero h1{
+    color: #fff;
+}
+
+.hero-container h1 {
+    font-size: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-container p {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    margin-top: 65px;
+    padding: 24px;
+    height: 70vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1A1A1A;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 342px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.durian-hero {
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-button p {
+    margin: 0px;
+    color: black;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+}
+
+.hero-button {
+    background-color: #FEC200;
+    justify-content: center;
+    width: fit-content;
+    padding: 9px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 196, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+.text-button-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: fit-content;
+    height: fit-content;
+}
+
+.img-desc-hero {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* card */
+.produk-kami-container {
+    display: flex;
+    padding: 50px 150px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-kami-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 900px;
+    justify-content: center;
+    align-items: stretch;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-kami-container p, .produk-kami-container h2, .produk-unggulan-container h2 {
+    text-align: center;
+    margin-top: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-image-produk-kami {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-image-produk-kami img {
+    width: 70%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-kami-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #1A1A1A;
+    width: 150px;
+    border-radius: 10px;
+    padding: 0 18px 18px 18px;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button {
+    display: flex;
+    background-color: rgba(254, 194, 0, 0.2);
+    width: fit-content;
+    padding: 8px 15px;
+    border-radius: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-button-card-produk-kami {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.text-button-card-produk-kami h3, .text-button-card-produk-kami p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.desc-card {
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-card {
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-kami-container h2,
+.produk-unggulan-container h2 {
+    margin-bottom: 10px;
+}
+
+.produk-kami-container p {
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+.price-card {
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-unggulan-container p {
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rating {
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* produk unggulan */
+.produk-unggulan-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1A1A;
+    width: 100px;
+    border-radius: 10px;
+    padding: 18px 10px 18px 10px;
+    gap: 10px;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.produk-unggulan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    height: 100%;
+    width: fit-content;
+}
+
+.produk-unggulan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px 20px;
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-image-produk-unggulan {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-produk-unggulan img {
+    width: 80%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.text-button-card-produk-kami-produk-unggulan p {
+    font-size: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-button-card-produk-kami-produk-unggulan h4, .text-button-card-produk-kami-produk-unggulan p {
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.desc-card-produk-unggulan {
+    margin: 0;
+}
+
+/* footer */
+footer {
+    padding: 24px;
+}
+
+.footer-about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 50px;
+    padding: 12px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-about-us p {
+    margin: 2px 0;
+    line-height: 1rem;
+    font-size: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-about-us h3 {
+    margin: 0;
+}
+
+.footer-up {
+    max-width: 30%;
+    justify-content: start;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-left img {
+    width: 50%;
+    height: auto;
+}
+
+.footer-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-profile > img {
+    height: 50%;
+    width: auto;
+}
+
+.doorens-logo {
+    width: fit-content;
+}
+
+/* Profile */
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    margin-top: 65px;
+    width: 100%;
+}
+
+.back-to-home {
+    padding: 10px 20px;
+    align-self: start;
+    margin: 10px 20px 30px 100px;
+    margin-top: 10px;
+    background-color: rgba(254, 194, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #ffffff28;
+}
+
+.profile-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 800px;
+    min-width: 0;
+    max-height: fit-content;
+    border-radius: 20px;
+    padding: 1%;
+    width: 90vw;
+    box-sizing: border-box;
+}
+
+.profile-menu-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(121, 121, 119, 0.2);
+    max-width: 300px;
+    min-width: 200px;
+    padding: 2rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: stretch;
+    border: 2px solid rgba(121, 121, 119, 0.2);
+    box-sizing: border-box;
+    padding: 2rem;
+    min-width: 300px;
+    height: 100%;
+    flex: 1;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    gap: 23px;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.menu-profile {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.menu-profile > img {
+    height: 20px;
+}
+
+.head-profile-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 30%;
+    min-height: 150px;
+}
+
+.head-profile-menu h2 {
+    margin: 1rem 0;
+}
+
+.head-profile-menu img {
+    height: 125px;
+    max-height: 125px;
+}
+
+.button-save-profile {
+    padding: 10px 15px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+    border: none;
+    background-color: #FEC200;
+}
+
+.profile-form h1 {
+    margin: 0;
+}
+
+.menu-profile.active {
+    background-color: #FEC200;
+}
+
+.menu-profile.active p {
+    color: #000;
+}
+
+.menu-profile.keluar p {
+    color: #AF2222;
+}
+
+.nav-profile .nav-right {
+    display: none;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #b8b6b6;
+}
+
+.input-box-profile {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1a1a1a;
+    color: white;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+    .img-desc-hero p {
+        font-size: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .img-desc-hero h1 {
+        font-size: 36px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container {
+        height: 90vh;
+    }
+
+    .hero-image img {
+        width: 90%;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 1024px){
+    nav {
+        padding: 12px 72px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .back-to-home {
+        margin-left: 72px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .hero-container h1 {
+        font-size: 34px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container p {
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .hero-container {
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        height: 80vh;
+    }
+
+    .produk-kami-container {
+        padding: 24px 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card {
+        width: 125px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card p {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-button p {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-button img {
+        font-size: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-down p {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us p {
+        margin: 0;
+        font-size: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us h3 {
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-container p {
+        font-size: 12px;
+    }
+
+    .price-card {
+        font-size: 15px;
+    }
+
+    .produk-unggulan-container p {
+        font-size: 11px;
+    }
+
+    .rating {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 703px) {
+    .profile-menu-container {
+        max-width: 100%;
+    }
+
+    .profile-menu-container,
+    .profile-form {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        height: 30px;
+        padding: 12px 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .back-to-home {
+        margin-left: 50px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .profile-image {
+        height: 28px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav-right {
+        gap: 15px;
+    }
+
+    .cart-image, .doorens-image {
+        height: 30px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .cart-image {
+        display: block;
+        height: 25px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .profile-container-dashboard p {
+        display: none;
+    }
+
+    .profile-container-dashboard {
+        padding: 0;
+        border: none;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .hero-container h1 {
+        font-size: 30px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container p {
+        font-size: 15px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        height: 85vh;
+        margin-top: 55px;
+        width: auto;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .img-desc-hero {
+        max-width: 85%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card {
+        width: 100px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card h3 {
+        font-size: 16px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .price-card {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .desc-card-produk-kami {
+        font-size: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-button {
+        font-size: 11px;
+        gap: 5px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .card-button img {
+        width: 11px;
+        height: auto;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-cards {
+        gap: 10px;
+    }
+
+    .footer-about-us {
+        margin: 0 35px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-down p {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us p {
+        margin: 0;
+        font-size: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us h3 {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-left img {
+        width: 60%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-container h2, 
+    .produk-unggulan-container h2 {
+        font-size: 20px;
+    }
+
+    .produk-kami-container p {
+        font-size: 11px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .price-card {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-unggulan-container p {
+        font-size: 9px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .rating {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-profile p {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-profile > img {
+        height: 20px;
+        width: auto;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: 12px 36px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .back-to-home {
+        margin-left: 36px;
+        transition: all 0.3s ease-in-out;
+        padding: 8px 18px;
+    }
+
+    .back-to-home img {
+        height: 13px;
+    }
+    .back-to-home {
+        margin-left: 36px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .cart-image, .doorens-image {
+        height: 25px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container h1 {
+        font-size: 25px;
+        transition: all 0.3s ease-in-out;
+    }
+    .hero-container p {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .durian-hero {
+        max-width: 80%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card {
+        width: 120px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-unggulan-card h4 {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-unggulan-card p {
+        font-size: 8px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-unggulan-card {
+        width: 75px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-unggulan-cards {
+        gap: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    footer {
+        padding: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-down p {
+        font-size: 7px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-down {
+        padding: 0 5px;
+    }
+
+    .footer-about-us {
+        padding: 6px 0;
+    }
+
+    .footer-about-us p {
+        margin: 0;
+        line-height: 0.7rem;
+        font-size: 6px;
+        transition: all 0.3s ease-in-out;
+        padding: 0;
+    }
+
+    .footer-about-us h3 {
+        font-size: 14px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-container h2, 
+    .produk-unggulan-container h2 {
+        font-size: 18px;
+    }
+
+    .footer-profile > img {
+        height: 12px;
+        width: auto;
+    }
+}
+
+@media (max-width: 425px) {
+    .cart-image, .doorens-image, .profile-image {
+        height: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container h1 {
+        font-size: 23px;
+        transition: all 0.3s ease-in-out;
+    }
+    .hero-container p {
+        font-size: 13px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card {
+        width: 100px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .durian-hero {
+        max-width: 80%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us {
+        margin: 0 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-left img {
+        width: 90%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-container p {
+        font-size: 10px;
+    }
+
+    .price-card {
+        font-size: 11px;
+    }
+
+    .produk-unggulan-container p {
+        font-size: 8px;
+    }
+
+    .rating {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 376px) {
+    .cart-image, .doorens-image, .profile-image {
+        height: 20px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .hero-container h1 {
+        font-size: 21px;
+        padding: 0px;
+        transition: all 0.3s ease-in-out;
+    }
+    .hero-container p {
+        font-size: 11px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .img-desc-hero {
+        max-width: 90%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .durian-hero {
+        max-width: 80%;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .produk-kami-card {
+        width: 150px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-about-us {
+        margin: 0 10px;
+    }
+
+    .footer-about-us p {
+        margin: 0;
+        line-height: 0.5rem;
+        font-size: 6px;
+        transition: all 0.3s ease-in-out;
+        padding: 0;
+    }
+
+    .footer-about-us h3 {
+        font-size: 12px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .footer-profile p {
+        font-size: 6px;
+    }
+
+    .produk-kami-container h2, 
+    .produk-unggulan-container h2 {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Anda</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../assets/logo-doorens-notext.svg">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="nav-profile">
+            <a href="../pages/dashboard.html" class="anchor-dashboard">
+                <div class="nav-logo">
+                    <img src="../assets/nav-logo-doorens.svg" alt="Doorens's Logo" class="doorens-image">
+                </div>
+            </a>
+            <div class="nav-right">
+                <div class="cart-logo">
+                    <img src="../assets/v-keranjang.svg" alt="cart" class="cart-image">
+                </div>
+                <a href="../pages/profile.html" class="anchor-profile">
+                    <div class="profile-container-dashboard">
+                        <div class="profile-button">
+                            <img src="../assets/logo-profil.svg" alt="profile's logo" class="profile-image">
+                            <p>Pecinta Durian</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile">
+            <div class="back-to-home">
+                <img src="../assets/v-home.svg" alt="Home">
+            </div>
+            <div class="profile-page">
+                <div class="profile-menu-container">
+                    <div class="head-profile-menu">
+                        <img src="../assets/logo-profil.svg" alt="Logo Profil">
+                        <h2>Pecinta Durian</h2>
+                    </div>
+                    <div class="menu-profile akun-saya active">
+                        <img src="../assets/logo-profil.svg" alt="">
+                        <p>Akun Saya</p>
+                    </div>
+                    <div class="menu-profile pesanan-saya">
+                        <img src="../assets/v-keranjang-putih.svg" alt="Keranjang">
+                        <p>Pesanan Saya</p>
+                    </div>
+                    <div class="menu-profile alamat">
+                        <img src="../assets/v-alamatsvg.svg" alt="alamat">
+                        <p>Alamat Tersimpan</p>
+                    </div>
+                    <div class="menu-profile keluar">
+                        <img src="../assets/v-logoutr.svg" alt="logout">
+                        <p>Keluar</p>
+                    </div>
+                </div>
+                <div class="profile-form">
+                    <form action="">
+                        <h1 class="form-title">Profil Saya</h1>
+                        <div class="input-form">
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" id="username" class="input-box-profile" name="username" placeholder="Pecinta Durian">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="nama_lengkap">Nama Lengkap</label>
+                                <input type="text" id="nama_lengkap" class="input-box-profile" name="nama_lengkap" placeholder="Aku Suka Durian">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" class="input-box-profile" name="email" placeholder="cintadurian@gmail.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="no_telp">Nomor Telepon</label>
+                                <input type="tel" id="no_telp" class="input-box-profile" name="no_telp" placeholder="081234567891">
+                            </div>
+                        </div>
+                        <button type="submit" class="button-save-profile">Simpan Perubahan</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <hr>
+        <div class="footer-profile footer-down">
+            <p>&copy; 2026 Doorens Durian Specialist | Privacy Policy | Terms & Conditions</p>
+            <img src="../assets/sosmed.svg" alt="">
+        </div>
+    </footer>
+</body>
+</html>

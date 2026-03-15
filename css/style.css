@@ -1,4 +1,6 @@
-/* $orange = #FEC200 */
+html {
+    scroll-behavior: smooth;
+}
 
 p, h1, h2, h3, h4, h5, h6, legend {
     color: #fff;
@@ -22,6 +24,10 @@ nav {
     justify-content: space-between;
     height: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav-logo, .cart-logo, .nav-right{
@@ -113,7 +119,7 @@ hr {
 }
 
 .hero-container p {
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -150,7 +156,7 @@ hr {
 
 .hero-button p {
     margin: 0px;
-    color: black;
+    color: #3c3c3c;
     font-weight: bolder;
     transition: all 0.3s ease-in-out;
 }
@@ -373,6 +379,25 @@ hr {
     margin: 0;
 }
 
+.wrapper-back-to-top {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    position: sticky;
+}
+
+.back-to-top p {
+    margin: 0;
+}
+
+.back-to-top {
+    padding: 10px 15px;
+    background-color: rgba(255, 196, 0, 0.5);
+    border-radius: 10px;
+    border: 1px solid #cacaca64;
+    cursor: pointer;
+}
+
 /* footer */
 footer {
     padding: 24px;
@@ -440,12 +465,19 @@ footer {
 
 .back-to-home {
     padding: 10px 20px;
-    align-self: start;
-    margin: 10px 20px 30px 100px;
-    margin-top: 10px;
     background-color: rgba(254, 194, 0, 0.2);
     border-radius: 5px;
     border: 1px solid #ffffff28;
+}
+
+.wrapper-back-to-home {
+    align-self: flex-start;
+    padding: 10px 20px 30px 100px;
+    padding-top: 10px;
+}
+
+.anchor-to-home {
+    align-self: start;
 }
 
 .profile-page {
@@ -628,8 +660,11 @@ form {
     }
     
     .back-to-home {
-        margin-left: 72px;
         transition: all 0.3s ease-in-out;
+    }
+
+    .wrapper-back-to-home  {
+        padding-left: 72px;
     }
     
     .hero-container h1 {
@@ -728,8 +763,11 @@ form {
     }
 
     .back-to-home {
-        margin-left: 50px;
         transition: all 0.3s ease-in-out;
+    }
+
+    .wrapper-back-to-home  {
+        padding-left: 50px;
     }
 
     .profile-image {
@@ -895,17 +933,16 @@ form {
     }
 
     .back-to-home {
-        margin-left: 36px;
         transition: all 0.3s ease-in-out;
         padding: 8px 18px;
     }
 
+    .wrapper-back-to-home  {
+        padding-left: 36px;
+    }
+
     .back-to-home img {
         height: 13px;
-    }
-    .back-to-home {
-        margin-left: 36px;
-        transition: all 0.3s ease-in-out;
     }
     
     .cart-image, .doorens-image {

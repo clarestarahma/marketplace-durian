@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-p, h1, h2, h3, h4, h5, h6, legend {
+p, h1, h2, h3, h4, h5, h6, legend, label {
     color: #fff;
     font-family: "Inter", sans-serif;
 }

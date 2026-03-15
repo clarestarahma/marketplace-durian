@@ -24,3 +24,9 @@ Platform Marketplace Durian ini dirancang sebagai solusi belanja daring yang int
 ├── css/                # File style.css untuk mengatur tampilan global
 └── pages/              # Halaman web (dashboard.html, profile.html)
 ```
+
+### 🚀 Cara Menjalankan
+* **Clone repositori** ini ke komputer lokal Anda:
+  `git clone https://github.com/clarestarahma/marketplace-durian.git`
+* **Pastikan struktur folder** `assets` dan `css` berada di lokasi yang sesuai dengan path di file HTML.
+* **Buka file** `dashboard.html` melalui browser pilihan Anda.
